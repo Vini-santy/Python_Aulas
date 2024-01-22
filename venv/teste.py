@@ -43,3 +43,11 @@
 # print(soma(11, 55))
 
 print("Olá")
+
+for chave in pessoa:
+    print(chave, pessoa[chave])
+
+print(len(pessoa))
+print(list(pessoa.keys()))
+print(list(pessoa.values()))
+print(list(pessoa.items()))

@@ -21,7 +21,7 @@ while True:
             'Resposta': '15',
         },
     ]
-
+    
     # ------Acessing the first question------
     d1 = questions[0]
 
