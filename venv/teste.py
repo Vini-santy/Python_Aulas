@@ -1,53 +1,15 @@
-# lista = [10, 20, 30, 40]
-# lista.insert(4, 100)
-# lista.insert(0, 9)
-# lista.insert(3, 90)
-# num = lista[5]
-# print(lista, num)
+lista_precos = [500, 1500, 200, 100, 25]
 
-# salas = [
-#     ['Maria', 'Vitor'], 
-    
-#     ['Pedro'], 
-         
-#     ['Sarah', 'Miguel', 'João', (0, 10, 20 ,30 ,40)]
-# ]
+# new_list = []
 
-# print(salas[2][3][2])
+# for value in lista_precos:
+#     if value > 1000:
+#         new_list.append(value* 2)
+#     else:
+#         new_list.append(value)
 
-# print(12, 34, 1011, sep="", end='#')
-# print(56, 78, sep='-', end='\n')
-# print(9, 10, sep='-', end='\n')
+# print(new_list)
 
-# lista_a = ['Luiz', 'Maria', 1, True, 1.2]
-# lista_b = lista_a.copy()
+new_list = [preco for preco in lista_precos]
 
-# lista_a[0] = 'Qualquer coisa'
-# print(lista_a)
-# print(lista_b)
-
-#def relogio():
-
-# def soma(x, y):
-#     if x > 10:
-#         return [10, 20]
-#     return x + y
-
-
-# # variavel = soma(1, 2)
-# # variavel = int('1')
-# soma1 = soma(2, 2)
-# soma2 = soma(3, 3)
-# print(soma1)
-# print(soma2)
-# print(soma(11, 55))
-
-print("Olá")
-
-for chave in pessoa:
-    print(chave, pessoa[chave])
-
-print(len(pessoa))
-print(list(pessoa.keys()))
-print(list(pessoa.values()))
-print(list(pessoa.items()))
+print(new_list)
